@@ -1,0 +1,23 @@
+div{
+    border: 2px solid green;
+    padding:10px;
+    margin: 10px;
+}
+
+div.container p:nth-child(2)
+{
+    background-color: rgb(27, 27, 46);
+
+}
+
+div.container p:nth-child(odd)
+{
+    color:red;
+
+}
+
+div.container p:nth-child(even)
+{
+    color:blueviolet;
+
+}
